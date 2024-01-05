@@ -1,0 +1,38 @@
+@charset "UTF-8"; 
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagem/8ad00a374c1f05ae4c79ec0cf3b42169.jpg);
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+
+}
+    menu {
+        text-align: center;
+    }
+
+section > menu > ul > li{
+    display: inline-block;
+    transition: 1s;
+    background-color:red;
+    font-size: 1.2em;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black; 
+    
+
+}
+
+section > menu > ul > li#naci {
+    
+}
